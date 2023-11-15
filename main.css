@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body  h1 {
+    background-color: rgba(0, 0, 255, 0.315);
+    max-width: 45%;
+    margin-left: 75px;
+}
+.container  {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+form {
+    margin-top: 20px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+input {
+    width: 100%;
+    margin-top: 4px;
+    padding: 7px;
+}
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.233);
+
+}
+
